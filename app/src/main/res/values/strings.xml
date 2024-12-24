@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Story Application</string>
+
+    <string name="login">Sign In</string>
+    <string name="signup">Register</string>
+    <string name="name">Full Name</string>
+    <string name="email">Email Address</string>
+    <string name="password">Account Password</string>
+    <string name="logout">Sign Out</string>
+    <string name="detail">Details</string>
+    <string name="setting">Settings</string>
+    <string name="add_story">Create Story</string>
+    <string name="upload">Submit</string>
+    <string name="gallery">Photo Gallery</string>
+    <string name="camera">Camera Mode</string>
+
+    <string name="error_empty_name">Name cannot be empty</string>
+    <string name="error_empty_email">Email cannot be empty</string>
+    <string name="error_empty_password">Password cannot be empty</string>
+    <string name="error_email_not_valid">Invalid email format</string>
+    <string name="error_password_too_short">Password must have at least 8 characters</string>
+
+    <string name="register_success">Registration Successful</string>
+    <string name="login_success">Successfully Signed In</string>
+    <string name="story_uploaded_successfully">Story Uploaded Successfully</string>
+    <string name="logout_success">Successfully Signed Out</string>
+
+    <string name="please_provide_description">Provide a description, please</string>
+    <string name="please_select_an_image">Choose an image, please</string>
+
+    <string name="permission_request_granted">Permission granted</string>
+    <string name="permission_request_denied">Permission denied</string>
+
+    <string name="failed_open_camera">Unable to open the camera</string>
+    <string name="failed_take_picture">Unable to capture the picture</string>
+
+    <string name="press_again_for_exit">Press again to exit</string>
+    <string name="invalid_story_id">Story ID is invalid</string>
+
+    <string name="description">Write a description...</string>
+    <string name="image_container">Image Holder</string>
+    <string name="from">Shared By: </string>
+    <string name="image_switch">Switch Image</string>
+    <string name="button_fab">Floating Action Button</string>
+
+    <string name="login_title">Join our community!</string>
+    <string name="login_description">Log in and start exploring.</string>
+
+    <string name="main_title">Welcome to the Story App</string>
+    <string name="main_description">Access everything you need here.</string>
+    <string name="main_text">Please sign in or register to continue.</string>
+
+    <string name="register_title">Join us and become part of our community!</string>
+    <string name="register_description">Create an account to get started.</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="maps" translatable="false">Maps</string>
+    <!-- TODO: Remove or modify this placeholder -->
+    <string name="hello_blank_fragment" translatable="false">Welcome to the blank fragment</string>
+    <string name="no_stories" translatable="false">No stories available</string>
+    <string name="add_location_optional" translatable="false">Add a location (optional)</string>
+    <string name="timeout" translatable="false">Connection Timeout</string>
+    <string name="retry" translatable="false">Try Again</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications\n</string>
+    <string name="title_login_page">Welcome, Please Login</string>
+    <string name="description_story">deskripsi\n</string>
+    <string name="title_story">story\\n</string>
+</resources>

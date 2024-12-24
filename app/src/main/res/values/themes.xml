@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base Theme -->
+    <style name="Base.Theme.StoryApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <!-- Application Theme -->
+    <style name="Theme.StoryApp" parent="Base.Theme.StoryApp" />
+
+    <!-- Custom Button Style -->
+    <style name="CustomButton" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/primary</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Secondary Button Style -->
+    <style name="CustomButtonSecond" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/secondary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/secondary</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Widget Parent Theme -->
+    <style name="Theme.StoryApp.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:background">@color/background</item>
+        <item name="android:radius">12dp</item>
+    </style>
+
+    <!-- Widget Container Style -->
+    <style name="Theme.StoryApp.AppWidgetContainer" parent="Theme.StoryApp.AppWidgetContainerParent">
+        <item name="android:padding">8dp</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+</resources>
